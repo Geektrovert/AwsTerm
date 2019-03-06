@@ -14,8 +14,6 @@ brew install ncdu
 brew install httpie
 brew install asciinema
 brew install neofetch
-brew install screenfetch
-brew install autoenv
 brew install cmake
 brew install nano
 brew install node
