@@ -79,4 +79,4 @@ brew update && brew upgrade && brew cleanup
 
 ## References
 
-This writing was hugely inspired from the blog posts of [Darren Burs](https://github.com/darrenburns)
+This writing was hugely inspired from the blog posts of [Darren Burns](https://github.com/darrenburns)
