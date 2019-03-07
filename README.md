@@ -2,7 +2,7 @@
 
 ## installing necessary packages
 
-1. copy `init.sh`
+1. copy `init.sh` from [here](https://github.com/Geektrovert/AwsTerm/blob/master/init.sh)
 2. run following commands:
 
     ```bash
