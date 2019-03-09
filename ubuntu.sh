@@ -1,17 +1,17 @@
-apt-get install htop
-apt-get install bat
-apt-get install exa
-apt-get install fd
-apt-get install ripgrep
-apt-get install tig
-apt-get install thefuck
-echo 'eval $(thefuck --alias)' >> .*rc
-apt-get install httpie
-apt-get install asciinema
-apt-get install neofetch
-apt-get install pstree
-# installing hexyl
-wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0_amd64.deb"
-dpkg -i hexyl_0.4.0_amd64.deb
+sudo apt-get install htop
+sudo apt-get install bat
+sudo apt-get install exa
+sudo apt-get install fd
+sudo apt-get install ripgrep
+sudo apt-get install tig
+sudo apt-get install thefuck
+sudo echo 'eval $(thefuck --alias)' >> .*rc
+sudo apt-get install httpie
+sudo apt-get install asciinema
+sudo apt-get install neofetch
+sudo apt-get install pstree
+sudo wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0_amd64.deb"
+sudo dpkg -i hexyl_0.4.0_amd64.deb
+sudo rm hexyl_0.4.0_amd64.deb
 
-source ~/.*rc
+sudo source ~/.*rc
