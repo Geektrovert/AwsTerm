@@ -37,4 +37,4 @@ sudo wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0
 sudo dpkg -i hexyl_0.4.0_amd64.deb
 sudo rm hexyl_0.4.0_amd64.deb
 
-sudo source ~/.*rc
+source ~/.*rc
