@@ -2,52 +2,50 @@
 
 ## installing necessary packages
 
-1. copy `init.sh` from [here](https://github.com/Geektrovert/AwsTerm/blob/master/init.sh) on your local machine
-2. run following commands:
+1. clone the repository:
 
     ```bash
-    cd directory/to/the/file
-    chmod +x init.sh
-    ./init.sh
+    sudo apt-get install git
+    git clone https://github.com/Geektrovert/AwsTerm.git
+    cd AwsTerm
+
+    # for macOS
+    sudo chmod +x mac.sh
+    ./mac.sh
+
+    # for ubuntu alike debian based distros
+    sudo chmod +x deb.sh
+    ./deb.sh
+
+    cd ..
+    rm -rf AwsTerm
     ```
 
 This shell file installs the following packages:
 
-- [git](https://git-scm.com/)
-- [zsh](https://www.zsh.org/)
 - [htop](https://hisham.hm/htop/)
-- [z](https://github.com/rupa/z)
-- [fzf](https://github.com/junegunn/fzf)
 - [bat](https://github.com/sharkdp/bat)
 - [exa](https://github.com/ogham/exa)
 - [fd](https://github.com/sharkdp/fd)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [peco](https://github.com/peco/peco)
 - [hexile](https://github.com/sharkdp/hexyl)
 - [tig](https://github.com/jonas/tig)
 - [thefuck](https://github.com/nvbn/thefuck)
-- [ncdu](https://dev.yorhel.nl/ncdu)
 - [httpie](https://httpie.org/)
 - [asciinema](https://asciinema.org)
 - [neofetch](https://github.com/dylanaraps/neofetch)
-- [screenfetch](https://github.com/KittyKatt/screenFetch)
-- [cmake](https://cmake.org/)
-- [nano](https://www.nano-editor.org/)
-- node.js and npm
-- [openvpn](https://openvpn.net/)
-- https://www.perl.org/
 - [pstree](https://linux.die.net/man/1/pstree)
-- [tcpdump](https://www.tcpdump.org/)
-- util-linux
-- [whois](https://www.whois.com/)
-- [wireguard-tools](https://www.wireguard.com/)
-- [wireshark](https://www.wireshark.org/)
 
 ## Updating and cleaning everything
 
-```bash
-brew update && brew upgrade && brew cleanup
-```
+    ```bash
+    # for macOS
+    brew update && brew upgrade && brew cleanup
+
+    # for ubuntu
+    sudo apt-get update
+    sudo apt-get upgrade
+    ```
 
 ## Useful commandline utilities
 
