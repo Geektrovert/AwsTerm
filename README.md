@@ -38,14 +38,12 @@ This shell file installs the following packages:
 
 ## Updating and cleaning everything
 
-    ```bash
     # for macOS
     brew update && brew upgrade && brew cleanup
 
     # for ubuntu
     sudo apt-get update
     sudo apt-get upgrade
-    ```
 
 ## Useful commandline utilities
 
