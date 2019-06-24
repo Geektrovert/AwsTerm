@@ -115,6 +115,10 @@ This shell file installs the following packages:
 13. `neofetch` command shows the system details
 
     ![neofetch](assets/neo.png)
+    
+## Love OpenSource
+
+If this article is helpful to you, or you love this, just hit the star button :D
 
 ## References
 
