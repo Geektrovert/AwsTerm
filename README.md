@@ -20,6 +20,10 @@
     sudo chmod +x mac.sh
     ./mac.sh
 
+    # for arch and arch linux based distros
+    sudo chmod +x arch.sh
+    ./arch.sh
+
     # for ubuntu alike debian based distros
     sudo chmod +x deb.sh
     ./deb.sh
@@ -47,6 +51,9 @@ This shell file installs the following packages:
 
     # for macOS
     brew update && brew upgrade && brew cleanup
+
+    # for arch linux
+    sudo pacman -Syyu
 
     # for ubuntu
     sudo apt-get update
