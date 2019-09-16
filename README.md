@@ -71,7 +71,8 @@ This shell file installs the following packages:
 2. Viewing config of homebrew: `brew config`
 
 3. `bat filename` - '**bat**' is a modern replacement of '**cat**' which shows a source file on console with full syntax highlighting
-![bat](assets/bat.svg)
+
+    ![bat](assets/bat.svg)
 
 4. Alternative to '**ls**' :
     - `exa` - list all files
@@ -81,7 +82,8 @@ This shell file installs the following packages:
     ![exa](assets/exa.svg)
 
 5. Find any directory : `fd search_keyword`
-![fd](assets/fd.svg)
+
+    ![fd](assets/fd.svg)
 
 6. Advanve grep: `rg` (**ripgrep**) for finding strings among the files under current directory (_SSSHHHH, don't tell anyone, this is lighting fast!!!_)
 
