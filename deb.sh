@@ -42,5 +42,13 @@ sudo dpkg -i nnn_2.7-1_ubuntu18.04.amd64.deb
 sudo rm nnn_2.7-1_ubuntu18.04.amd64.deb 
 #aria2
 sudo apt install aria2
+#mc
+sudo apt install mc
+#mtr
+sudo apt install mtr
+#pydf
+sudo apt install pydf
+#lftp
+sudo apt install lftp
 
 source ~/.*rc

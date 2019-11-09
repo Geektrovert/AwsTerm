@@ -5,7 +5,7 @@ echo "Synchronizing package databases"
 sudo pacman -Sy
 
 # packages
-sudo pacman -S htop bat exa fd ripgrep tig httpie asciinema neofetch hexyl
+sudo pacman -S htop bat exa fd ripgrep tig httpie asciinema neofetch hexyl nnn aria2 mc mtr pydf lftp
 
 # pstree
 sudo pacman -S psmisc

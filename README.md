@@ -48,6 +48,10 @@ This shell file installs the following packages:
 - [pstree](https://linux.die.net/man/1/pstree)
 - [nnn](https://github.com/jarun/nnn)
 - [aria2](https://github.com/aria2/aria2)
+- [mc](https://github.com/MidnightCommander/mc)
+- [mtr](https://github.com/traviscross/mtr)
+- [pydf](https://linux.die.net/man/1/pydf)
+- [lftp](https://linux.die.net/man/1/pydf)
 
 ## Updating and cleaning everything
 
@@ -134,6 +138,22 @@ This shell file installs the following packages:
 15. `aria2` is an open source and free lightweight multi-protocol & multi-server command-line download utility.
 
     ![aria2](assets/aria2.svg)
+
+16. `mc` gnu midnight commander is a feature rich visual file manager.
+
+    ![mc](assets/mc.png)
+
+17. `mtr` is a simple command-line network diagnostic tool.
+
+    ![mtr](assets/mtr.svg)	
+
+18. `pydf` is an advanced command line tool to display the amount of used and available disk space.
+
+    ![pydf](assets/pydf.svg)
+
+19. `lftp` is a sophisticated file transfer program supporting a number of network protocols (ftp,http,sftp,fish,torrent).
+
+    ![lftp](assets/lftp.png)
 
 ## Love OpenSource
 
