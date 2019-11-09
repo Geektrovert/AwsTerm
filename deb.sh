@@ -40,5 +40,7 @@ sudo rm hexyl_0.4.0_amd64.deb
 sudo wget https://github.com/jarun/nnn/releases/download/v2.7/nnn_2.7-1_ubuntu18.04.amd64.deb
 sudo dpkg -i nnn_2.7-1_ubuntu18.04.amd64.deb
 sudo rm nnn_2.7-1_ubuntu18.04.amd64.deb 
+#aria2
+sudo apt install aria2
 
 source ~/.*rc
