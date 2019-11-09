@@ -36,5 +36,9 @@ sudo apt-get install pstree
 sudo wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0_amd64.deb"
 sudo dpkg -i hexyl_0.4.0_amd64.deb
 sudo rm hexyl_0.4.0_amd64.deb
+#nnn
+sudo wget https://github.com/jarun/nnn/releases/download/v2.7/nnn_2.7-1_ubuntu18.04.amd64.deb
+sudo dpkg -i nnn_2.7-1_ubuntu18.04.amd64.deb
+sudo rm nnn_2.7-1_ubuntu18.04.amd64.deb 
 
 source ~/.*rc
