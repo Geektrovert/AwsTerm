@@ -46,6 +46,7 @@ This shell file installs the following packages:
 - [asciinema](https://asciinema.org)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [pstree](https://linux.die.net/man/1/pstree)
+- [nnn](https://github.com/jarun/nnn)
 
 ## Updating and cleaning everything
 
