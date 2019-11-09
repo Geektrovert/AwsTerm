@@ -47,6 +47,7 @@ This shell file installs the following packages:
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [pstree](https://linux.die.net/man/1/pstree)
 - [nnn](https://github.com/jarun/nnn)
+- [aria2](https://github.com/aria2/aria2)
 
 ## Updating and cleaning everything
 
@@ -126,6 +127,12 @@ This shell file installs the following packages:
 
     ![neofetch](assets/neo.png)
     
+14. `nnn` is a full-featured terminal file manager.It's tiny,extremely light and fast.
+    ![nnn](asset/nnn.png)
+  
+15. `aria2` is an open source and free lightweight multi-protocol & multi-server command-line download utility.
+    ![aria2](asset/aria2.svg)
+
 ## Love OpenSource
 
 If this article is helpful to you, or you love this, just hit the star button :D
@@ -133,4 +140,3 @@ If this article is helpful to you, or you love this, just hit the star button :D
 ## References
 
 This writing was hugely inspired from the blog posts of [Darren Burns](https://github.com/darrenburns)
-![aria2](assets/aria2.svg)
