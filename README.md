@@ -128,10 +128,12 @@ This shell file installs the following packages:
     ![neofetch](assets/neo.png)
     
 14. `nnn` is a full-featured terminal file manager.It's tiny,extremely light and fast.
-    ![nnn](asset/nnn.png)
+
+    ![nnn](assets/nnn.png)
   
 15. `aria2` is an open source and free lightweight multi-protocol & multi-server command-line download utility.
-    ![aria2](asset/aria2.svg)
+
+    ![aria2](assets/aria2.svg)
 
 ## Love OpenSource
 
