@@ -133,4 +133,4 @@ If this article is helpful to you, or you love this, just hit the star button :D
 ## References
 
 This writing was hugely inspired from the blog posts of [Darren Burns](https://github.com/darrenburns)
-![aria2](asset/aria2.svg)
+![aria2](assets/aria2.svg)
