@@ -11,26 +11,26 @@
 
 1. clone the repository:
 
-    ```bash
-    sudo apt-get install git
-    git clone https://github.com/Geektrovert/AwsTerm.git
-    cd AwsTerm
+   ```bash
+   sudo apt-get install git
+   git clone https://github.com/Geektrovert/AwsTerm.git
+   cd AwsTerm
 
-    # for macOS
-    sudo chmod +x mac.sh
-    ./mac.sh
+   # for macOS
+   sudo chmod +x mac.sh
+   ./mac.sh
 
-    # for arch and arch linux based distros
-    sudo chmod +x arch.sh
-    ./arch.sh
+   # for arch and arch linux based distros
+   sudo chmod +x arch.sh
+   ./arch.sh
 
-    # for ubuntu alike debian based distros
-    sudo chmod +x deb.sh
-    ./deb.sh
+   # for ubuntu alike debian based distros
+   sudo chmod +x deb.sh
+   ./deb.sh
 
-    cd ..
-    rm -rf AwsTerm
-    ```
+   cd ..
+   rm -rf AwsTerm
+   ```
 
 This shell file installs the following packages:
 
@@ -69,51 +69,56 @@ This shell file installs the following packages:
 
 1. Listing brew packages:
 
-    - `brew list` - list all packages
-    - `brew cask list` - list packages installed using caskroom
-    - `brew leaves` - list all top-level packages
-    - `brew deps --tree --installed` - list all packages with a nicely formatted dependency tree
+   - `brew list` - list all packages
+   - `brew cask list` - list packages installed using caskroom
+   - `brew leaves` - list all top-level packages
+   - `brew deps --tree --installed` - list all packages with a nicely formatted
+     dependency tree
 
 2. Viewing config of homebrew: `brew config`
 
-3. `bat filename` - '**bat**' is a modern replacement of '**cat**' which shows a source file on console with full syntax highlighting
+3. `bat filename` - '**bat**' is a modern replacement of '**cat**' which shows a
+   source file on console with full syntax highlighting
 
-    ![bat](assets/bat.svg)
+   ![bat](assets/bat.svg)
 
 4. Alternative to '**ls**' :
-    - `exa` - list all files
-    - `exa -la` - list all files including hidden files
-    - `exa -laT` - list all files under current directory in a tree format
 
-    ![exa](assets/exa.svg)
+   - `exa` - list all files
+   - `exa -la` - list all files including hidden files
+   - `exa -laT` - list all files under current directory in a tree format
+
+   ![exa](assets/exa.svg)
 
 5. Find any directory : `fd search_keyword`
 
-    ![fd](assets/fd.svg)
+   ![fd](assets/fd.svg)
 
-6. Advanve grep: `rg` (**ripgrep**) for finding strings among the files under current directory (_SSSHHHH, don't tell anyone, this is lighting fast!!!_)
+6. Advanve grep: `rg` (**ripgrep**) for finding strings among the files under
+   current directory (_SSSHHHH, don't tell anyone, this is lighting fast!!!_)
 
-    ```bash
-    rg 'string to search'
-    ```
+   ```bash
+   rg 'string to search'
+   ```
 
-    ![rg](assets/rg.svg)
+   ![rg](assets/rg.svg)
 
-7. Viewing a HEX file : `hexyl filename` - it shows the file in three columns in format: byte | hex | representation
+7. Viewing a HEX file : `hexyl filename` - it shows the file in three columns in
+   format: byte | hex | representation
 
-    ![hex](assets/hexyl.gif)
+   ![hex](assets/hexyl.gif)
 
 8. HTTPie : a modern replacement of **curl**. It uses the following format :
 
-    ```bash
-    http POST link key=value
-    ```
+   ```bash
+   http POST link key=value
+   ```
 
-    ![httpie](assets/httpie.gif)
+   ![httpie](assets/httpie.gif)
 
 9. `pstree` command shows the running processes as a tree
 
-    ![pstree](assets/pstree.svg)
+   ![pstree](assets/pstree.svg)
 
 10. **htop** is an interactive process viewer run by the command `htop`
 
@@ -123,19 +128,22 @@ This shell file installs the following packages:
 
     ![tig](assets/tig.gif)
 
-12. You should give some fuck to your typos. So here it is, the legendary NSFW command `fuck`
+12. You should give some fuck to your typos. So here it is, the legendary NSFW
+    command `fuck`
 
     ![fuck](assets/fuck.gif)
 
 13. `neofetch` command shows the system details
 
     ![neofetch](assets/neo.png)
-    
-14. `nnn` is a full-featured terminal file manager.It's tiny,extremely light and fast.
+
+14. `nnn` is a full-featured terminal file manager.It's tiny,extremely light and
+    fast.
 
     ![nnn](assets/nnn.png)
-  
-15. `aria2` is an open source and free lightweight multi-protocol & multi-server command-line download utility.
+
+15. `aria2` is an open source and free lightweight multi-protocol & multi-server
+    command-line download utility.
 
     ![aria2](assets/aria2.svg)
 
@@ -145,13 +153,15 @@ This shell file installs the following packages:
 
 17. `mtr` is a simple command-line network diagnostic tool.
 
-    ![mtr](assets/mtr.svg)	
+    ![mtr](assets/mtr.svg)
 
-18. `pydf` is an advanced command line tool to display the amount of used and available disk space.
+18. `pydf` is an advanced command line tool to display the amount of used and
+    available disk space.
 
     ![pydf](assets/pydf.svg)
 
-19. `lftp` is a sophisticated file transfer program supporting a number of network protocols (ftp,http,sftp,fish,torrent).
+19. `lftp` is a sophisticated file transfer program supporting a number of
+    network protocols (ftp,http,sftp,fish,torrent).
 
     ![lftp](assets/lftp.png)
 
@@ -161,4 +171,5 @@ If this article is helpful to you, or you love this, just hit the star button :D
 
 ## References
 
-This writing was hugely inspired from the blog posts of [Darren Burns](https://github.com/darrenburns)
+This writing was hugely inspired from the blog posts of
+[Darren Burns](https://github.com/darrenburns)
