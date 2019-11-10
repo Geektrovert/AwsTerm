@@ -22,8 +22,8 @@ sudo apt-get install tig
 # thefuck
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
-sudo echo 'eval $(thefuck --alias)' >> .bashrc
-sudo echo 'eval $(thefuck --alias)' >> .zshrc
+sudo echo 'eval $(thefuck --alias)' >>.bashrc
+sudo echo 'eval $(thefuck --alias)' >>.zshrc
 # httpie
 sudo apt-get install httpie
 # asciinema
@@ -39,7 +39,7 @@ sudo rm hexyl_0.4.0_amd64.deb
 #nnn
 sudo wget https://github.com/jarun/nnn/releases/download/v2.7/nnn_2.7-1_ubuntu18.04.amd64.deb
 sudo dpkg -i nnn_2.7-1_ubuntu18.04.amd64.deb
-sudo rm nnn_2.7-1_ubuntu18.04.amd64.deb 
+sudo rm nnn_2.7-1_ubuntu18.04.amd64.deb
 #aria2
 sudo apt install aria2
 #mc
