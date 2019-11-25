@@ -1,5 +1,5 @@
 #!/bin/sh
-chmod +x fedora.sh
+
 # Updating
 sudo dnf update
 
