@@ -69,6 +69,9 @@ This shell file installs the following packages:
     sudo apt-get update
     sudo apt-get upgrade
 
+    # for Fedora
+    sudo dnf update
+
 ## Useful commandline utilities
 
 1. Listing brew packages:
