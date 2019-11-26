@@ -28,6 +28,10 @@
    sudo chmod +x deb.sh
    ./deb.sh
 
+   # for RHEL/Fedora User
+   sudo chmod +x fedora.sh
+   ./fedora.sh
+
    cd ..
    rm -rf AwsTerm
    ```
@@ -64,6 +68,9 @@ This shell file installs the following packages:
     # for ubuntu
     sudo apt-get update
     sudo apt-get upgrade
+
+    # for Fedora
+    sudo dnf update
 
 ## Useful commandline utilities
 
