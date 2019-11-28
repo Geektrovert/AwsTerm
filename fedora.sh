@@ -4,7 +4,7 @@
 sudo dnf update
 
 # packages
-sudo dnf install htop bat exa ripgrep tig httpie asciinema neofetch nnn aria2 mc mtr pydf lftp fd-find
+sudo dnf install htop bat exa ripgrep tig httpie asciinema neofetch nnn aria2 mc mtr pydf lftp fd-find fzf
 
 # the fuck
 sudo dnf install python-pip python-setuptools
