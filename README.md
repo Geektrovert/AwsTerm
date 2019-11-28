@@ -174,6 +174,7 @@ This shell file installs the following packages:
     ![lftp](assets/lftp.png)
 
 20. `fzf` is a general-purpose command-line fuzzy finder.It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
+
     ![fzf](assets/fzf.png)
 
 ## Love OpenSource
