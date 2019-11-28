@@ -10,7 +10,7 @@ brew install fzf
 # To install useful key bindings and fuzzy completion:
 "$(brew --prefix)"/opt/fzf/install
 
-echo 'eval $(thefuck --alias)' >> .*rc
+echo 'eval $(thefuck --alias)' >>.*rc
 brew install httpie
 brew install asciinema
 brew install neofetch
