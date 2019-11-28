@@ -8,7 +8,7 @@ brew install thefuck
 brew install fzf
 
 # To install useful key bindings and fuzzy completion:
-$(brew --prefix)/opt/fzf/install
+"$(brew --prefix)"/opt/fzf/install
 
 echo 'eval $(thefuck --alias)' >> .*rc
 brew install httpie
