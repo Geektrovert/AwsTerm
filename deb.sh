@@ -51,4 +51,7 @@ sudo apt install pydf
 #lftp
 sudo apt install lftp
 
+# fzf(fzf is a general-purpose command-line fuzzy finder)
+sudo apt-get install fzf
+
 source ~/.*rc
