@@ -8,8 +8,7 @@ sudo dnf install htop bat exa ripgrep tig httpie asciinema neofetch nnn aria2 mc
 
 # the fuck
 sudo dnf install python-pip python-setuptools
-sudo pip install pipenv
-pipenv install thefuck
+sudo pip install thefuck
 sudo echo 'eval $(thefuck --alias)' >>~/.bashrc # redirect to home
 sudo echo 'eval $(thefuck --alias)' >>~/.zshrc  # redirect to home
 
