@@ -56,6 +56,7 @@ This shell file installs the following packages:
 - [mtr](https://github.com/traviscross/mtr)
 - [pydf](https://linux.die.net/man/1/pydf)
 - [lftp](https://linux.die.net/man/1/pydf)
+- [fzf](https://github.com/junegunn/fzf)
 
 ## Updating and cleaning everything
 
@@ -171,6 +172,12 @@ This shell file installs the following packages:
     network protocols (ftp,http,sftp,fish,torrent).
 
     ![lftp](assets/lftp.png)
+
+20. `fzf` is a general-purpose command-line fuzzy finder.It's an interactive
+    Unix filter for command-line that can be used with any list; files, command
+    history, processes, hostnames, bookmarks, git commits, etc.
+
+    ![fzf](assets/fzf.png)
 
 ## Love OpenSource
 

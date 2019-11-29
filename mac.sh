@@ -5,7 +5,12 @@ brew install fd
 brew install ripgrep
 brew install tig
 brew install thefuck
-echo 'eval $(thefuck --alias)' >> .*rc
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+"$(brew --prefix)"/opt/fzf/install
+
+echo 'eval $(thefuck --alias)' >>.*rc
 brew install httpie
 brew install asciinema
 brew install neofetch

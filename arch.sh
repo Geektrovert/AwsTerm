@@ -10,6 +10,9 @@ sudo pacman -S htop bat exa fd ripgrep tig httpie asciinema neofetch hexyl nnn a
 # pstree
 sudo pacman -S psmisc
 
+# fzf(fzf is a general-purpose command-line fuzzy finder)
+sudo pacman -S fzf
+
 # thefuck
 sudo pacman -S python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
