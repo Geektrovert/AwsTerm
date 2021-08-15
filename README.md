@@ -15,7 +15,13 @@
    sudo apt-get install git
    git clone https://github.com/Geektrovert/AwsTerm.git
    cd AwsTerm
-
+   ```
+   run installer script
+   ```
+   ./installer.sh
+   ``` 
+   or, run script manually according to your operating system
+   ``` 
    # for macOS
    sudo chmod +x mac.sh
    ./mac.sh
@@ -31,7 +37,9 @@
    # for RHEL/Fedora User
    sudo chmod +x fedora.sh
    ./fedora.sh
-
+   ```
+   remove AwsTerm directory
+   ```
    cd ..
    rm -rf AwsTerm
    ```
