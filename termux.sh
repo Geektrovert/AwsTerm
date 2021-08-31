@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #!/data/data/com.termux/files/usr/bin/bash
 
-# test 0.2
+# test 0.3
 # termux 0.117 required
 
 # basic 
@@ -13,7 +13,6 @@ pkg install htop bat exa fd ripgrep	tig asciinema neofetch hexyl nnn aria2 mc lf
 # missing mtr(https://github.com/traviscross/mtr)
 
 # pip packages 
-pip install
 pip install --upgrade pip
 pkg upgrade
 
