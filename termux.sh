@@ -20,8 +20,8 @@ pkg upgrade
 pip3 install thefuck
 pip3 install pydf
 
-echo 'eval $(thefuck --alias)' >> $HOME/.bashrc
-echo 'eval $(thefuck --alias)' >> $HOME/.zshrc
+echo 'eval $(thefuck --alias)' >> "$HOME"/.bashrc
+echo 'eval $(thefuck --alias)' >> "$HOME"/.zshrc
 
 # httpie 
 pip install httpie 
