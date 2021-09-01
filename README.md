@@ -13,12 +13,16 @@
    git clone https://github.com/Geektrovert/AwsTerm.git
    cd AwsTerm
    ```
+
    run installer script
+
    ```
    ./installer.sh
-   ``` 
+   ```
+
    or, run script manually according to your operating system
-   ``` 
+
+   ```
    # for macOS
    sudo chmod +x mac.sh
    ./mac.sh
@@ -34,12 +38,14 @@
    # for RHEL/Fedora User
    sudo chmod +x fedora.sh
    ./fedora.sh
-   
+
    # for android Termux
-   chmod +x termux.sh 
+   chmod +x termux.sh
    ./termux.sh
    ```
+
    remove AwsTerm directory
+
    ```
    cd ..
    rm -rf AwsTerm
@@ -81,9 +87,9 @@ This shell file installs the following packages:
 
     # for Fedora
     sudo dnf update
-    
-    # for android termux 
-    pkg update && pkg upgrade 
+
+    # for android termux
+    pkg update && pkg upgrade
 
 ## Useful commandline utilities
 
