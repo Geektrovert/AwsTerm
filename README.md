@@ -34,6 +34,10 @@
    # for RHEL/Fedora User
    sudo chmod +x fedora.sh
    ./fedora.sh
+   
+   # for android Termux
+   chmod +x termux.sh 
+   ./termux.sh
    ```
    remove AwsTerm directory
    ```
@@ -77,6 +81,9 @@ This shell file installs the following packages:
 
     # for Fedora
     sudo dnf update
+    
+    # for android termux 
+    pkg update && pkg upgrade 
 
 ## Useful commandline utilities
 
