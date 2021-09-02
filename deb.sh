@@ -31,8 +31,8 @@ sudo rm ripgrep_0.10.0_amd64.deb
 # thefuck
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
-sudo echo 'eval $(thefuck --alias)' >> $HOME/.bashrc
-sudo echo 'eval $(thefuck --alias)' >> $HOME/.zshrc
+sudo echo 'eval $(thefuck --alias)' >> "$HOME"/.bashrc
+sudo echo 'eval $(thefuck --alias)' >> "$HOME"/.zshrc
 
 # hexyl
 sudo wget "https://github.com/sharkdp/hexyl/releases/download/v0.4.0/hexyl_0.4.0_amd64.deb"
