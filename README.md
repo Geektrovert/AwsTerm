@@ -65,7 +65,7 @@ This shell file installs the following packages:
 - [mc](https://github.com/MidnightCommander/mc)
 - [mtr](https://github.com/traviscross/mtr)
 - [pydf](https://linux.die.net/man/1/pydf)
-- [lftp](https://linux.die.net/man/1/pydf)
+- [lftp](https://linux.die.net/man/1/lftp)
 - [fzf](https://github.com/junegunn/fzf)
 
 ## Updating and cleaning everything
