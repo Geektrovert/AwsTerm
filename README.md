@@ -1,9 +1,10 @@
-# Awesome utilities on macOS and Linux Terminal
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)
 
 ```
 This project isn't maintained anymore!
 ```
+
+# Awesome utilities on macOS and Linux Terminal
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)
 
 ## installing necessary packages
 
